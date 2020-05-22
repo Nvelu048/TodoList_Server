@@ -1,0 +1,40 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "description": "Todo server for StackHack1.0",
+  "main": "src/app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.13",
+    "nodemon": "^2.0.3",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nvelu048/TodoList_Server.git"
+  },
+  "keywords": [
+    "Todo",
+    "Server",
+    "HackerEarth",
+    "StackHack",
+    "Nagarajan",
+    "Nagavelu"
+  ],
+  "author": "Nagavelu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nvelu048/TodoList_Server/issues"
+  },
+  "homepage": "https://github.com/Nvelu048/TodoList_Server#readme"
+}
