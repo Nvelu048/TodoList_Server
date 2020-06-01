@@ -19,7 +19,6 @@ async function main() {
     app.listen(4000, () => {
       console.log('server started');
     });
-    console.log('Successfully started');
   } catch (err) {
     console.log('Issue in starting service ', err);
   }

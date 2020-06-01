@@ -4,7 +4,7 @@ async function connectToDB() {
     await mongoose.connect('mongodb://localhost/todo_stack_hack', {
       useNewUrlParser: true,
     });
-    console.log('Successfully connected');
+    console.log('Successfully DB connected');
   } catch (e) {
     throw e;
   }
